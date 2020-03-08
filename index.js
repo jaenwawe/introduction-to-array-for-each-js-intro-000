@@ -1,7 +1,7 @@
 // Add your doToElementsInArray() function here:
 
 function doToElementsInArray(array,callback){
-  array.forEach(callback)
+  array.forEach(callback);
 }
 
 
@@ -13,7 +13,7 @@ function changeCompletely(element, indes, array){
   ${array[index]}s!!!`;
 }
 
-var animals = ["dog", "cat", "squirrel"]
+var animals = ["dog", "cat", "squirrel"];
 
 doToElementsInArray(animals, changeCompletely);
 
